@@ -20,7 +20,7 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 2px solid var(--soft-react);
+  border: 2px solid var(--dark-react);
   padding: 30px;
   border-radius: 5px;
 }
@@ -36,7 +36,7 @@ body {
 .btn {
   display: inline-block;
   background: var(--dark-react);
-  color: #fff;
+  color: white;
   border: none;
   padding: 10px 20px;
   margin: 5px;
