@@ -1,3 +1,10 @@
+## HOW IT LOOKS
+
+![N|Solid](https://i.imgur.com/j59BF8M.png)
+![N|Solid](https://i.imgur.com/5wHlkCR.png)
+![N|Solid](https://i.imgur.com/QpMQPRL.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
