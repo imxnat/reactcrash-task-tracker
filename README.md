@@ -17,7 +17,9 @@
 
 ![N|Solid](https://i.imgur.com/dEKX0Zq.png)
 
-
+### Try it
+To try it out you can clone the repo and run `npm run server` in order to fetch the data from the fake json-server
+***
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
