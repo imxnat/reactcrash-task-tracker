@@ -1,4 +1,18 @@
-## HOW IT LOOKS
+### Learned and Implemented
+***
+
+- Create new Task
+- Delete Task
+- Set reminder to Tasks
+- Fetching data from fake server
+- **Hooks**: useState (for updating data)
+- **Hooks**: useEffect (for Getting data)
+- **Hooks**: useLocation (for showing especific things based on the route)
+- Create forms and some validations
+- Routing between components with **react-router-dom**
+
+### How it Looks
+***
 
 ![N|Solid](https://i.imgur.com/j59BF8M.png)
 ![N|Solid](https://i.imgur.com/5wHlkCR.png)
