@@ -6,7 +6,7 @@ const Footer = () => {
 
     return (
         <footer>
-            <p>Copyright &copy; 2021</p>
+            <p>Nathalie Rivas &copy; 2021</p>
 
             {location.pathname === '/about' && <a style={{textDecoration: 'none', color: 'pink', lineHeight: '4rem'}} href='http://twitter.com/imxnat' target='_blank' rel="noreferrer" >[ Dev 🥰 ]</a>}
 

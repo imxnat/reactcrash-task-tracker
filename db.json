@@ -1,22 +1,16 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Learning react",
-      "day": "Monday",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Washing clothes",
+      "text": "Learn about Axios",
       "day": "Sunday",
-      "reminder": false
+      "reminder": true,
+      "id": 5
     },
     {
-      "text": "Practice promises JS",
-      "day": "Tomorrow",
-      "reminder": false,
-      "id": 4
+      "text": "Learn promises JS",
+      "day": "Today",
+      "reminder": true,
+      "id": 6
     }
   ]
 }
