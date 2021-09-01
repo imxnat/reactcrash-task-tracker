@@ -4,6 +4,7 @@
 - Create new Task
 - Delete Task
 - Set reminder to Tasks
+- Unset reminder by double clicking Task
 - Fetching data from fake server
 - **Hooks**: useState (for updating data)
 - **Hooks**: useEffect (for Getting data)
@@ -14,9 +15,7 @@
 ### How it Looks
 ***
 
-![N|Solid](https://i.imgur.com/j59BF8M.png)
-![N|Solid](https://i.imgur.com/5wHlkCR.png)
-![N|Solid](https://i.imgur.com/QpMQPRL.png)
+![N|Solid](https://i.imgur.com/dEKX0Zq.png)
 
 
 # Getting Started with Create React App
