@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Learning react",
+      "day": "Monday",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Washing clothes",
+      "day": "Sunday",
+      "reminder": false
+    },
+    {
+      "text": "New task from the server",
+      "day": "Today",
+      "reminder": true,
+      "id": 3
+    }
+  ]
+}

@@ -13,6 +13,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: whitesmoke;
 }
 
 .App {
@@ -23,6 +24,7 @@ body {
   border: 2px solid var(--dark-react);
   padding: 30px;
   border-radius: 5px;
+  box-shadow: 8px 8px 0px 0px var(--soft-react);
 }
 
 .header {
@@ -110,6 +112,19 @@ body {
 .form-control-check input {
   flex: 2;
   height: 20px;
+}
+
+.link{
+  text-decoration: none;
+  color: var(--soft-react);
+  line-height: 4rem;
+  padding: 8px;
+  border-radius: 5px;
+} 
+.link:hover{
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #282c34;
 }
 
 footer {
