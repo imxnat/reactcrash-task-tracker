@@ -12,7 +12,26 @@ function App() {
 
   const [showAddTask, setShowAddTask] = useState(false);
 
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState([
+    // {
+    //   id: 1,
+    //   text: "Learning react",
+    //   day: "Monday",
+    //   reminder: true,
+    // },
+    // {
+    //   id: 2,
+    //   text: "Washing clothes",
+    //   day: "Sunday",
+    //   reminder: false,
+    // },
+    // {
+    //   id: 4,
+    //   text: "Practice promises JS",
+    //   day: "Tomorrow",
+    //   reminder: false,
+    // }
+  ]);
 
   // GET Task from server
   useEffect(() => {
@@ -40,7 +59,17 @@ function App() {
     return data
   }
 
-  // Add Task function
+  // // Add Task function - Data Static
+  // const addTask = (task) => {
+
+  //   const id = Math.floor(Math.random() * 10000) + 1
+
+  //   const newTask = { id, ...task }
+
+  //   setTasks([...tasks, newTask])
+  // }
+
+  // Add Task funtion data fetching from server
   const addTask = async (task) => {
     const res = await fetch('http://localhost:5000/tasks', {
       method: 'POST',
@@ -84,6 +113,17 @@ function App() {
       )
     )
   }
+
+  //Static data without using the fake server
+  // const deleteTask = (id) => {
+  //   setTasks(tasks.filter((task) => task.id !== id))
+  // }
+
+  // const toggleReminder = (id) => {
+  //   setTasks((tasks.map(task) => task.id === id ? {...task, reminder: !task.reminder } :
+  //   task)
+  //   )
+  // }
 
   return (
     <Router>
