@@ -94,8 +94,7 @@ function App() {
          <Route path='/' exact render={(props) => 
          (
             <>
-              {showAddTask && <AddTask onAdd={addTask} />
-}
+              {showAddTask && <AddTask onAdd={addTask} />}
           {/* List of task */}
         {tasks.length > 0 ? (
             <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/>) 

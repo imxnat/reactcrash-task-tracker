@@ -13,10 +13,10 @@
       "reminder": false
     },
     {
-      "text": "New task from the server",
-      "day": "Today",
-      "reminder": true,
-      "id": 3
+      "text": "Practice promises JS",
+      "day": "Tomorrow",
+      "reminder": false,
+      "id": 4
     }
   ]
 }
