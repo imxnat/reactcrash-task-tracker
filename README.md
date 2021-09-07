@@ -8,7 +8,7 @@
 - Fetching data from fake server
 - **Hooks**: useState (for updating data)
 - **Hooks**: useEffect (for Getting data)
-- **Hooks**: useLocation (for showing especific things based on the route)
+- **Hooks**: useLocation (for showing specific things based on the route)
 - Create forms and some validations
 - Routing between components with **react-router-dom**
 
