@@ -8,7 +8,7 @@
 - Fetching data from fake server
 - **Hooks**: useState (for updating data)
 - **Hooks**: useEffect (for Getting data)
-- **Hooks**: useLocation (for showing especific things based on the route)
+- **Hooks**: useLocation (for showing specific things based on the route)
 - Create forms and some validations
 - Routing between components with **react-router-dom**
 
@@ -16,6 +16,8 @@
 ***
 
 ![N|Solid](https://i.imgur.com/dEKX0Zq.png)
+
+[![video_2021-09-04_19-18-16.md.gif](https://s9.gifyu.com/images/video_2021-09-04_19-18-16.md.gif)](https://gifyu.com/image/JLoH)
 
 ### Try it
 To try it out you can clone the repo and run `npm run server` in order to fetch the data from the **fake json-server**
