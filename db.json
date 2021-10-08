@@ -9,6 +9,12 @@
     {
       "text": "Learn promises JS",
       "day": "Today",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "Do some freecodecamp",
+      "day": "During the week",
       "reminder": true,
       "id": 6
     }
