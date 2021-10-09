@@ -45,7 +45,7 @@ function App() {
 
   // Fetch Tasks
   const fetchTasks = async () => {
-    const res = await fetch('http://localhost:5000/tasks')
+    const res = await fetch('https://protected-headland-67977.herokuapp.com/tasks')
     const data = await res.json()
 
     return data
@@ -53,7 +53,7 @@ function App() {
 
  // Fecth Task (singular)
   const fetchTask = async (id) => {
-    const res = await fetch(`http://localhost:5000/tasks/${id}`)
+    const res = await fetch(`https://protected-headland-67977.herokuapp.com/tasks/${id}`)
     const data = await res.json()
 
     return data
@@ -71,7 +71,7 @@ function App() {
 
   // Add Task funtion data fetching from server
   const addTask = async (task) => {
-    const res = await fetch('http://localhost:5000/tasks', {
+    const res = await fetch('https://protected-headland-67977.herokuapp.com/tasks', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json'
@@ -86,7 +86,7 @@ function App() {
 
   // Delete Task function
   const deleteTask = async (id) => {
-    await fetch(`http://localhost:5000/tasks/${id}`, {
+    await fetch(`https://protected-headland-67977.herokuapp.com/tasks/${id}`, {
       method: 'DELETE',
     })
 
@@ -98,7 +98,7 @@ function App() {
     const taskToToggle = await fetchTask(id)
     const updateTask = { ...taskToToggle, reminder: !taskToToggle.reminder }
 
-    const res = await fetch(`http://localhost:5000/tasks/${id}`, {
+    const res = await fetch(`https://protected-headland-67977.herokuapp.com/tasks/${id}`, {
       method: 'PUT',
       headers: {
         'Content-type': 'application/json'
